@@ -313,21 +313,7 @@
         "HomeTeamScore": null,
         "AwayTeamScore": null
     },
-    {
-        "MatchNumber": 22,
-        "RoundNumber": 2,
-        "DateUtc": "2022-11-26 13:00:00Z",
-        "Location": "Education City Stadium",
-        "HomeTeam": "Poland",
-        "AwayTeam": "Saudi Arabia",
-        "flag": [
-            "https://flagcdn.com/w320/pl.png",
-            "https://world-cup.codsfli.com/flag/KSA.png"
-        ],
-        "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
-    },
+
     {
         "MatchNumber": 23,
         "RoundNumber": 2,
