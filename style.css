@@ -85,7 +85,7 @@ body {
 .nav_link:hover {
     color: #fff;  /* Change text color on hover */
     border-radius: 5px;  /* Optional: Add rounded corners to background */
-    padding: 5px 10px;  /* Optional: Add some padding for a button-like effect */
+    padding: 5px .3px;  /* Optional: Add some padding for a button-like effect */
 }
 .nav_link.active {
     position: relative;
