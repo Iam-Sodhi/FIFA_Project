@@ -1,0 +1,363 @@
+[
+    {
+      "group": "Group A",
+      "teams": [
+        {
+          "position": 1,
+          "team": "Netherlands",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+          "match_play": 3,
+          "loss": 0,
+          "draw": 1,
+          "win": 2,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": "Senegal",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 0,
+          "win": 2,
+          "points": 6
+        },
+        {
+          "position": 3,
+          "team": "Ecuador",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Qatar",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+          "match_play": 3,
+          "loss": 3,
+          "draw": 0,
+          "win": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group B",
+      "teams": [
+        {
+          "position": 1,
+          "team": "England",
+          "flag": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
+          "match_play": 3,
+          "loss": 0,
+          "draw": 1,
+          "win": 2,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": "USA",
+          "flag": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+          "match_play": 3,
+          "loss": 0,
+          "draw": 2,
+          "win": 1,
+          "points": 5
+        },
+        {
+          "position": 3,
+          "team": "Iran",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+          "match_play": 3,
+          "loss": 2,
+          "draw": 0,
+          "win": 1,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": "Wales",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Wales.svg",
+          "match_play": 3,
+          "loss": 2,
+          "draw": 1,
+          "win": 0,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "group": "Group C",
+      "teams": [
+        {
+          "position": 1,
+          "team": "Argentina",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 0,
+          "win": 2,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "Poland",
+          "flag": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 3,
+          "team": "Mexico",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Saudi Arabia",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+          "match_play": 3,
+          "loss": 2,
+          "draw": 0,
+          "win": 1,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "teams": [
+        {
+          "position": 1,
+          "team": "France",
+          "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 0,
+          "win": 2,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "Australia",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 0,
+          "win": 2,
+          "points": 6
+        },
+        {
+          "position": 3,
+          "team": "Tunisia",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Denmark",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg",
+          "match_play": 3,
+          "loss": 2,
+          "draw": 1,
+          "win": 0,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "group": "Group E",
+      "teams": [
+        {
+          "position": 1,
+          "team": "Japan",
+          "flag": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 0,
+          "win": 2,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "Spain",
+          "flag": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 3,
+          "team": "Germany",
+          "flag": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Costa Rica",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica_%28state%29.svg",
+          "match_play": 3,
+          "loss": 2,
+          "draw": 0,
+          "win": 1,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "group": "Group F",
+      "teams": [
+        {
+          "position": 1,
+          "team": "Morocco",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
+          "match_play": 3,
+          "loss": 0,
+          "draw": 1,
+          "win": 2,
+          "points": 7
+        },
+        {
+          "position": 2,
+          "team": "Croatia",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+          "match_play": 3,
+          "loss": 0,
+          "draw": 2,
+          "win": 1,
+          "points": 5
+        },
+        {
+          "position": 3,
+          "team": "Belgium",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Canada",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+          "match_play": 3,
+          "loss": 3,
+          "draw": 0,
+          "win": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "Group G",
+      "teams": [
+        {
+          "position": 1,
+          "team": "Brazil",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 0,
+          "win": 2,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "Switzerland",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 0,
+          "win": 2,
+          "points": 6
+        },
+        {
+          "position": 3,
+          "team": "Cameroon",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Serbia",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
+          "match_play": 3,
+          "loss": 2,
+          "draw": 1,
+          "win": 0,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "group": "Group H",
+      "teams": [
+        {
+          "position": 1,
+          "team": "Portugal",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 0,
+          "win": 2,
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": "South Korea",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 3,
+          "team": "Uruguay",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
+          "match_play": 3,
+          "loss": 1,
+          "draw": 1,
+          "win": 1,
+          "points": 4
+        },
+        {
+          "position": 4,
+          "team": "Ghana",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
+          "match_play": 3,
+          "loss": 2,
+          "draw": 0,
+          "win": 1,
+          "points": 3
+        }
+      ]
+    }
+  ]
+  

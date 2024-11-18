@@ -264,13 +264,25 @@ body {
 .points-container {
     padding: 3rem 0 5rem 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns:repeat(3, 1fr);;
     gap: 2rem;
+}
+@media screen and (max-width: 1000px) {
+    .points-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets or medium screens */
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .points-container {
+        grid-template-columns: 1fr; /* 1 column for smaller screens */
+    }
 }
 
 .points-table {
     box-shadow: 0 0 0.5rem 0.2rem var(--secondary);
     border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 .group-heading {

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Document loaded, fetching teams data...');
-    fetch('teams.json')
+    fetch('../data/teams.json')
         .then(response => {
             if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
             return response.json();
@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Function to open modal dynamically
 function openTeamModal(team) {
     console.log(`Opening modal for team: ${team.name}`);
-
     // Check if the modal already exists
     let modal = document.getElementById(`modal-${team.id}`);
     if (!modal) {

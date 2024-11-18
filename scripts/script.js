@@ -38,70 +38,132 @@ document.addEventListener('DOMContentLoaded', () => {
     // count-down-end
 });
 
+
 async function fetchPoints() {
     let points_wrapper = document.querySelector('.points-container');
     let loader = document.querySelector('.loader');
-    let url = 'https://world-cup.codsfli.com/points.php';
+    let url = '../data/points.json'; // Local JSON file
     let data = await fetch(url);
     if (data.ok) {
-        setTimeout(async() => {
-                    loader.remove();
-                    let response = await data.json();
-                    response.map((groups) => {
-                                let sor = groups.teams.sort((a, b) => {
-                                    return a.position - b.position;
-                                });
-                                points_wrapper.innerHTML += `
-                <div class="points-table">
-  <h1 class="group-heading">${groups.group}</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Team</th>
-        <th>MP</th>
-        <th>L</th>
-        <th>D</th>
-        <th>W</th>
-        <th>Pts</th>
-      </tr>
-    </thead>
-    <tbody>
-      ${sor
-        .map(
-          (team) => `
-      <tr>
-        <td>
-          <div class="d-a">
-            <img
-              src="${team.flag}"
-              alt="${team.Team}"
-              class="team-flag"
-            />
-            <span>${team.flag
-              .split('https://world-cup.codsfli.com/flag/')
-              .join('')
-              .split('.png')
-              .join('')}</span>
-          </div>
-        </td>
-        <td>${team.match_play}</td>
-        <td>${team.loss}</td>
-        <td>${team.draw}</td>
-        <td>${team.win}</td>
-        <td>${team.points}</td>
-      </tr>
-      `
-        )
-        .join('')}
-    </tbody>
-  </table>
-</div>
+        setTimeout(async () => {
+            loader.remove();
+            let response = await data.json();
+            response.map((groups) => {
+                let sortedTeams = groups.teams.sort((a, b) => {
+                    return a.position - b.position;
+                });
+                points_wrapper.innerHTML += `
+                    <div class="points-table">
+                        <h1 class="group-heading">${groups.group}</h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Team</th>
+                                    <th>MP</th>
+                                    <th>L</th>
+                                    <th>D</th>
+                                    <th>W</th>
+                                    <th>Pts</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${sortedTeams
+                                    .map(
+                                        (team) => `
+                                <tr>
+                                    <td>
+                                        <div class="d-a">
+                                            <img src="${team.flag}" alt="${team.team}" class="team-flag" />
+                                            <span>${team.team}</span>
+                                        </div>
+                                    </td>
+                                    <td>${team.match_play}</td>
+                                    <td>${team.loss}</td>
+                                    <td>${team.draw}</td>
+                                    <td>${team.win}</td>
+                                    <td>${team.points}</td>
+                                </tr>
+                                `
+                                    )
+                                    .join('')}
+                            </tbody>
+                        </table>
+                    </div>
                 `;
-      });
-    }, 1000);
-  }
+            });
+        }, 1000);
+    } else {
+        console.error('Failed to fetch points.json');
+    }
 }
+
 fetchPoints();
+
+
+// async function fetchPoints() {
+//     let points_wrapper = document.querySelector('.points-container');
+//     let loader = document.querySelector('.loader');
+//     let url = 'https://world-cup.codsfli.com/points.php';
+//     let data = await fetch(url);
+//     if (data.ok) {
+//         setTimeout(async() => {
+//                     loader.remove();
+//                     let response = await data.json();
+//                     response.map((groups) => {
+//                                 let sor = groups.teams.sort((a, b) => {
+//                                     return a.position - b.position;
+//                                 });
+//                                 points_wrapper.innerHTML += `
+//                 <div class="points-table">
+//   <h1 class="group-heading">${groups.group}</h1>
+//   <table>
+//     <thead>
+//       <tr>
+//         <th>Team</th>
+//         <th>MP</th>
+//         <th>L</th>
+//         <th>D</th>
+//         <th>W</th>
+//         <th>Pts</th>
+//       </tr>
+//     </thead>
+//     <tbody>
+//       ${sor
+//         .map(
+//           (team) => `
+//       <tr>
+//         <td>
+//           <div class="d-a">
+//             <img
+//               src="${team.flag}"
+//               alt="${team.Team}"
+//               class="team-flag"
+//             />
+//             <span>${team.flag
+//               .split('https://world-cup.codsfli.com/flag/')
+//               .join('')
+//               .split('.png')
+//               .join('')}</span>
+//           </div>
+//         </td>
+//         <td>${team.match_play}</td>
+//         <td>${team.loss}</td>
+//         <td>${team.draw}</td>
+//         <td>${team.win}</td>
+//         <td>${team.points}</td>
+//       </tr>
+//       `
+//         )
+//         .join('')}
+//     </tbody>
+//   </table>
+// </div>
+//                 `;
+//       });
+//     }, 1000);
+//   }
+// }
+// fetchPoints();
 
 let scroll_btn = document.querySelector('.scroll-top');
 window.addEventListener('scroll', () => {
@@ -121,7 +183,7 @@ scroll_btn.addEventListener('click', () => {
 async function fetchMatch() {
     let match_by_date = document.querySelector('#match-date');
     let match_by_group = document.querySelector('#match-group');
-    let data = await fetch('./fifa-world-cup.json');
+    let data = await fetch('../data/fifa-world-cup.json');
     let response = await data.json();
     let all_match = [];
 
