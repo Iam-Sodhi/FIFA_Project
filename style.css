@@ -82,7 +82,11 @@ body {
     font-size: 1.6rem;
     color: var(--white);
 }
-
+.nav_link:hover {
+    color: #fff;  /* Change text color on hover */
+    border-radius: 5px;  /* Optional: Add rounded corners to background */
+    padding: 5px 10px;  /* Optional: Add some padding for a button-like effect */
+}
 .nav_link.active {
     position: relative;
 }
@@ -345,6 +349,6 @@ body {
 }
 .card-img-top {
     max-width: 100%; /* Ensures the image doesn't exceed the container's width */
-    height: auto; /* Maintains the aspect ratio */
+    height: 200px; /* Maintains the aspect ratio */
     display: block; /* Removes inline-block white space issues */
 }

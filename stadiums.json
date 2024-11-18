@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Lusail Stadium",
+        "location": "Lusail, Qatar",
+        "capacity": "80,000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Uruguay_vs_Portugal.jpg/330px-Uruguay_vs_Portugal.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Education City Stadium",
+        "location": "Al Rayyan, Qatar",
+        "capacity": "45,000",
+        "image": "https://imgs.search.brave.com/HFjMA133p3OF83t9TT08-1NYIkaQ-Xj9n5qcaAm20d8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/NS81Yy9FZHVjYXRp/b25fQ2l0eV9TdGFk/aXVtLmpwZy81MTJw/eC1FZHVjYXRpb25f/Q2l0eV9TdGFkaXVt/LmpwZw"
+    },
+    {
+        "id": 3,
+        "name": "Khalifa International Stadium",
+        "location": "Doha, Qatar",
+        "capacity": "40,000",
+        "image": "https://imgs.search.brave.com/V7kJxukwGAtRhqhMEkLts6N8Gjaiw5yKcR3ZmK3wl0w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Ny83MS9LaGFsaWZh/LW5ld1N0YWRpdW0t/RG9oYS0yMDE2LVBU/RkVfcm9vZi5qcGcv/NTEycHgtS2hhbGlm/YS1uZXdTdGFkaXVt/LURvaGEtMjAxNi1Q/VEZFX3Jvb2YuanBn"
+    },
+    {
+        "id": 4,
+        "name": "Al Bayt Stadium",
+        "location": "Al Khor, Qatar",
+        "capacity": "60,000",
+        "image": "https://imgs.search.brave.com/gpaweI21T4hrKaQ2-ikWmVmWq9oQZ5_hQEhfXvdz6w0/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly92aXNp/dHFhdGFyLmNvbS9j/b250ZW50L2RhbS92/aXNpdHFhdGFyL2lt/Zy90aGluZ3MtdG8t/ZG8vYWR2ZW50dXJl/cy9vdGhlci1zcG9y/dHMtYW5kLWFjdGl2/aXRpZXMvbmV3LXN0/YWRpdW0tcGljdHVy/ZXMvYWxfYmF5dF9z/dGFkaXVtXzNfMjdf/MTF6b24uanBnL19q/Y3JfY29udGVudC9y/ZW5kaXRpb25zL21l/ZGl1bS0xMjgwcHgu/anBlZw"
+    },
+    {
+        "id": 5,
+        "name": "Maracanã Stadium",
+        "location": "Rio de Janeiro, Brazil",
+        "capacity": "78,838",
+        "image": "https://imgs.search.brave.com/6wqxbMirhDLZ_ZDg2zWMaiLC8gXApVeFPL4YdfHFrgU/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9jZG4u/YnJpdGFubmljYS5j/b20vMjIvMTM4NjIy/LTA1MC00MjMwQkVE/Mi9NYXJhY2FuYS1T/dGFkaXVtLVJpby1k/ZS1KYW5laXJvLUJy/YXouanBn"
+    },
+    {
+        "id": 6,
+        "name": "Old Trafford",
+        "location": "Manchester, England",
+        "capacity": "74,140",
+        "image": "https://imgs.search.brave.com/B6POgbO-JRiM-RG_UyYf1ySazcxwo9rsy6TiyoPx8wI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzM2L09sZF90cmFm/Zm9yZF9zdGFkaXVt/XzE5MjBzLmpwZw"
+    },
+    {
+        "id": 7,
+        "name": "Camp Nou",
+        "location": "Barcelona, Spain",
+        "capacity": "99,354",
+        "image": "https://imgs.search.brave.com/J7i1ZSgwcUSYLxlDr9q0f9_1h2SEox_SfYKG9rmw5Sc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9hL2FkL0Nh/bXBfTm91X2Flcmlh/bC5qcGcvNTEycHgt/Q2FtcF9Ob3VfYWVy/aWFsLmpwZw"
+    },
+    {
+        "id": 8,
+        "name": "Wembley Stadium",
+        "location": "London, England",
+        "capacity": "90,000",
+        "image": "https://imgs.search.brave.com/eQ_3iB0BCcCb_CiTpBCoagtqS4amaG03bALnyt7D-FU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9kL2QyL0xv/bmRvbl9XZW1ibGV5/LmpwZy81MTJweC1M/b25kb25fV2VtYmxl/eS5qcGc"
+    },
+    {
+        "id": 9,
+        "name": "Allianz Arena",
+        "location": "Munich, Germany",
+        "capacity": "75,000",
+        "image": "https://imgs.search.brave.com/rSZzswXrMTZfi-0LOnk4pJa_Yzwl25TjqVPraLBfCD8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9lL2U5L0Fs/bGlhbnpfQXJlbmFf/MjAwOC0wMi0wOS5q/cGcvNTEycHgtQWxs/aWFuel9BcmVuYV8y/MDA4LTAyLTA5Lmpw/Zw"
+    },
+    {
+        "id": 10,
+        "name": "Santiago Bernabéu Stadium",
+        "location": "Madrid, Spain",
+        "capacity": "81,044",
+        "image": "https://imgs.search.brave.com/duBALjyJQSY9A2MG7z6CSl5Xx_XdtjRppcwqERE28s0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8wLzBlL0Vz/dGFkaW9fU2FudGlh/Z29fQmVybmFiJUMz/JUE5dV9NYWRyaWQu/anBnLzUxMnB4LUVz/dGFkaW9fU2FudGlh/Z29fQmVybmFiJUMz/JUE5dV9NYWRyaWQu/anBn"
+    },
+    {
+        "id": 11,
+        "name": "Stade de France",
+        "location": "Paris, France",
+        "capacity": "81,338",
+        "image": "https://imgs.search.brave.com/l9-AGI9bGv_jMlQuVjY4M0pell9HK9U-1uVFvLz9JcQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9iL2JiLyVD/MyU4OXByZXV2ZV9B/dGhsJUMzJUE5dGlz/bWVfSmV1eF9PbHlt/cGlxdWVzXzIwMjRf/U3RhZGVfRnJhbmNl/Xy1fU2FpbnQtRGVu/aXNfJTI4RlI5MyUy/OV8tXzIwMjQtMDgt/MDJfLV8xMzguanBn/LzUxMnB4LSVDMyU4/OXByZXV2ZV9BdGhs/JUMzJUE5dGlzbWVf/SmV1eF9PbHltcGlx/dWVzXzIwMjRfU3Rh/ZGVfRnJhbmNlXy1f/U2FpbnQtRGVuaXNf/JTI4RlI5MyUyOV8t/XzIwMjQtMDgtMDJf/LV8xMzguanBn"
+    },
+    {
+        "id": 12,
+        "name": "MetLife Stadium",
+        "location": "East Rutherford, USA",
+        "capacity": "82,500",
+        "image": "https://imgs.search.brave.com/f1C9WVEDoCpFeYVVcIGmFbg0U-kALI7qtzEjuNRQNsk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8wLzA0L01l/dGxpZmVfc3RhZGl1/bV8lMjhBZXJpYWxf/dmlldyUyOS5qcGcv/NTEycHgtTWV0bGlm/ZV9zdGFkaXVtXyUy/OEFlcmlhbF92aWV3/JTI5LmpwZw"
+    }
+]

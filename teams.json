@@ -1,101 +1,250 @@
 [
-   
-    {
-        "id": 2,
-        "name": "Ecuador",
-        "captain": "Enner Valencia",
-        "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg",
-        "players": ["Moisés Caicedo", "Gonzalo Plata", "Felipe Caicedo"]
-    },
     {
         "id": 1,
         "name": "Qatar",
         "captain": "Hassan Al-Haydos",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
-        "players": ["Mohammed Al-Bakri", "Akram Afif", "Almoez Ali"]
+        "players": [
+            "Mohammed Al-Bakri",
+            "Akram Afif",
+            "Almoez Ali"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Ecuador",
+        "captain": "Enner Valencia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg",
+        "players": [
+            "Moisés Caicedo",
+            "Gonzalo Plata",
+            "Felipe Caicedo"
+        ]
     },
     {
         "id": 3,
         "name": "England",
         "captain": "Harry Kane",
         "flag": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
-        "players": ["Raheem Sterling", "Jude Bellingham", "Declan Rice", "Phil Foden", "Mason Mount"]
+        "players": [
+            "Raheem Sterling",
+            "Jude Bellingham",
+            "Declan Rice",
+            "Phil Foden",
+            "Mason Mount"
+        ]
     },
     {
         "id": 4,
         "name": "Senegal",
         "captain": "Kalidou Koulibaly",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
-        "players": ["Sadio Mané", "Edouard Mendy", "Ismaïla Sarr", "Idrissa Gueye", "Boulaye Dia"]
+        "players": [
+            "Sadio Mané",
+            "Edouard Mendy",
+            "Ismaïla Sarr",
+            "Idrissa Gueye",
+            "Boulaye Dia"
+        ]
     },
     {
         "id": 5,
         "name": "Argentina",
         "captain": "Lionel Messi",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
-        "players": ["Lionel Messi", "Ángel Di María", "Lautaro Martínez", "Rodrigo De Paul", "Emiliano Martínez"]
+        "players": [
+            "Lionel Messi",
+            "Ángel Di María",
+            "Lautaro Martínez",
+            "Rodrigo De Paul",
+            "Emiliano Martínez"
+        ]
     },
     {
         "id": 6,
         "name": "France",
         "captain": "Kylian Mbappé",
         "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
-        "players": ["Kylian Mbappé", "Antoine Griezmann", "Olivier Giroud", "Hugo Lloris", "Raphaël Varane"]
+        "players": [
+            "Kylian Mbappé",
+            "Antoine Griezmann",
+            "Olivier Giroud",
+            "Hugo Lloris",
+            "Raphaël Varane"
+        ]
     },
     {
         "id": 7,
         "name": "Brazil",
         "captain": "Thiago Silva",
         "flag": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg",
-        "players": ["Neymar Jr.", "Vinícius Júnior", "Casemiro", "Richarlison", "Marquinhos"]
+        "players": [
+            "Neymar Jr.",
+            "Vinícius Júnior",
+            "Casemiro",
+            "Richarlison",
+            "Marquinhos"
+        ]
     },
     {
         "id": 8,
         "name": "Germany",
         "captain": "Manuel Neuer",
         "flag": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
-        "players": ["Thomas Müller", "Joshua Kimmich", "Kai Havertz", "Ilkay Gündogan", "Antonio Rüdiger"]
+        "players": [
+            "Thomas Müller",
+            "Joshua Kimmich",
+            "Kai Havertz",
+            "Ilkay Gündogan",
+            "Antonio Rüdiger"
+        ]
     },
     {
         "id": 9,
         "name": "Portugal",
         "captain": "Cristiano Ronaldo",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
-        "players": ["Cristiano Ronaldo", "Bruno Fernandes", "João Cancelo", "Bernardo Silva", "Rúben Dias"]
+        "players": [
+            "Cristiano Ronaldo",
+            "Bruno Fernandes",
+            "João Cancelo",
+            "Bernardo Silva",
+            "Rúben Dias"
+        ]
     },
     {
         "id": 10,
         "name": "Spain",
         "captain": "Sergio Busquets",
         "flag": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
-        "players": ["Pedri", "Gavi", "Ferran Torres", "Álvaro Morata", "Jordi Alba"]
+        "players": [
+            "Pedri",
+            "Gavi",
+            "Ferran Torres",
+            "Álvaro Morata",
+            "Jordi Alba"
+        ]
     },
     {
         "id": 11,
         "name": "Belgium",
         "captain": "Kevin De Bruyne",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg",
-        "players": ["Kevin De Bruyne", "Eden Hazard", "Romelu Lukaku", "Thibaut Courtois", "Youri Tielemans"]
+        "players": [
+            "Kevin De Bruyne",
+            "Eden Hazard",
+            "Romelu Lukaku",
+            "Thibaut Courtois",
+            "Youri Tielemans"
+        ]
     },
     {
         "id": 12,
         "name": "Netherlands",
         "captain": "Virgil van Dijk",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-        "players": ["Virgil van Dijk", "Memphis Depay", "Frenkie de Jong", "Matthijs de Ligt", "Denzel Dumfries"]
+        "players": [
+            "Virgil van Dijk",
+            "Memphis Depay",
+            "Frenkie de Jong",
+            "Matthijs de Ligt",
+            "Denzel Dumfries"
+        ]
     },
     {
         "id": 13,
         "name": "South Korea",
         "captain": "Son Heung-min",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
-        "players": ["Son Heung-min", "Kim Min-jae", "Hwang Hee-chan", "Lee Kang-in", "Cho Gue-sung"]
+        "players": [
+            "Son Heung-min",
+            "Kim Min-jae",
+            "Hwang Hee-chan",
+            "Lee Kang-in",
+            "Cho Gue-sung"
+        ]
     },
     {
         "id": 14,
         "name": "Ghana",
         "captain": "André Ayew",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
-        "players": ["Thomas Partey", "Mohammed Kudus", "Jordan Ayew", "Daniel Amartey", "Inaki Williams"]
+        "players": [
+            "Thomas Partey",
+            "Mohammed Kudus",
+            "Jordan Ayew",
+            "Daniel Amartey",
+            "Inaki Williams"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Poland",
+        "captain": "Robert Lewandowski",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
+        "players": ["Piotr Zieliński", "Wojciech Szczęsny", "Kamil Glik"]
+    },
+    {
+        "id": 16,
+        "name": "Saudi Arabia",
+        "captain": "Salman Al-Faraj",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+        "players": ["Salem Al-Dawsari", "Fahad Al-Muwallad", "Yasser Al-Shahrani"]
+    },
+    {
+        "id": 17,
+        "name": "Tunisia",
+        "captain": "Youssef Msakni",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg",
+        "players": ["Wahbi Khazri", "Ali Maâloul", "Dylan Bronn"]
+    },
+    {
+        "id": 18,
+        "name": "Australia",
+        "captain": "Mathew Ryan",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
+        "players": ["Aaron Mooy", "Ajdin Hrustic", "Harry Souttar"]
+    },
+    {
+        "id": 19,
+        "name": "Canada",
+        "captain": "Atiba Hutchinson",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+        "players": ["Alphonso Davies", "Jonathan David", "Milan Borjan"]
+    },
+    {
+        "id": 20,
+        "name": "Costa Rica",
+        "captain": "Bryan Ruiz",
+        "flag": "https://flagcdn.com/w320/cr.png",
+        "players": ["Keylor Navas", "Joel Campbell", "Celso Borges"]
+    },
+    {
+        "id": 21,
+        "name": "Morocco",
+        "captain": "Romain Saïss",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
+        "players": ["Achraf Hakimi", "Youssef En-Nesyri", "Hakim Ziyech"]
+    },
+    {
+        "id": 22,
+        "name": "Japan",
+        "captain": "Maya Yoshida",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
+        "players": ["Takefusa Kubo", "Daichi Kamada", "Takumi Minamino"]
+    },
+    {
+        "id": 23,
+        "name": "Serbia",
+        "captain": "Dusan Tadic",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
+        "players": ["Aleksandar Mitrovic", "Dusan Vlahovic", "Sergej Milinkovic-Savic"]
+    },
+    {
+        "id": 24,
+        "name": "South Korea",
+        "captain": "Son Heung-min",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+        "players": ["Kim Min-jae", "Lee Kang-in", "Hwang Hee-chan"]
     }
 ]

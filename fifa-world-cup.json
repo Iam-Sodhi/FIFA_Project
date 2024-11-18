@@ -104,21 +104,6 @@
         "HomeTeamScore": null,
         "AwayTeamScore": null
     },
-    {
-        "MatchNumber": 12,
-        "RoundNumber": 1,
-        "DateUtc": "2022-11-23 10:00:00Z",
-        "Location": "Al Bayt Stadium",
-        "HomeTeam": "Morocco",
-        "AwayTeam": "Croatia",
-        "flag": [
-            "https://world-cup.codsfli.com/flag/MAR.png",
-            "https://world-cup.codsfli.com/flag/CRO.png"
-        ],
-        "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
-    },
 
     {
         "MatchNumber": 10,

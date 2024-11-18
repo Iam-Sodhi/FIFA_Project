@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World cup 2022</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles2.css" />
+    <title>Stadiums</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
     <section id="hero">
-
         <header class="header">
             <div class="container">
                 <nav class="navigation">
@@ -27,17 +24,10 @@
                             <a href="index.html" class="nav_link active">Home</a>
                         </li>
                         <li class="nav_list">
-                            <a href="stadium.html" class="nav_link">Stadium</a>
+                            <a href="stadium.html" class="nav_link">Stadiums</a>
                         </li>
                         <li class="nav_list">
-                            <a href="teams.html" class="nav_link">Teams</a>
-                        </li>
-                        <li class="nav_list">
-                            <a href="/schedule.html" class="nav_link" target="_matches">Match Schedule</a
-                >
-              </li>
-              <li class="nav_list">
-                <!-- <a href="#!" class="nav_link">Explore</a> -->
+                            <a href="/schedule.html" class="nav_link" target="_matches">Match Schedule</a>
                         </li>
                         <li class="nav_list btn-nav">
                             <a href="#!" class="btn-outline">
@@ -50,25 +40,15 @@
             </div>
         </header>
     </section>
-    <div class="container">
-        <div class="match-tabs">
-            <li class="tab-link">
-                <a href="#match-date">Match By Date</a>
-            </li>
-            <li class="tab-link">
-                <a href="#match-group">Match By Group</a>
-            </li>
-        </div>
-        <h1 class="section-heading">Match By Date</h1>
-        <div class="matchs" id="match-date"></div>
-        <h1 class="section-heading">Match By Group</h1>
-        <div class="matchs-by-group" id="match-group"></div>
-    </div>
-    <div class="scroll-top">
-        <img src="arrow.png" alt="arrow" />
-    </div>
-    <script src="script.js"></script>
-    <!-- <script src="scriptSchedule.js"></script> -->
-</body>
 
+    <div class="container mt-4">
+        <h1 class="text-center">Stadiums</h1>
+        <div id="stadiums-list" class="stadiums-container row"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <script src="scriptStadiums.js"></script>
+</body>
 </html>
