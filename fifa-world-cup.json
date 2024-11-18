@@ -58,21 +58,7 @@
         "HomeTeamScore": null,
         "AwayTeamScore": null
     },
-    {
-        "MatchNumber": 8,
-        "RoundNumber": 1,
-        "DateUtc": "2022-11-22 10:00:00Z",
-        "Location": "Lusail Stadium",
-        "HomeTeam": "Argentina",
-        "AwayTeam": "Saudi Arabia",
-        "flag": [
-            "https://flagcdn.com/w320/ar.png",
-            "https://world-cup.codsfli.com/flag/KSA.png"
-        ],
-        "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
-    },
+
     {
         "MatchNumber": 6,
         "RoundNumber": 1,
@@ -133,21 +119,7 @@
         "HomeTeamScore": null,
         "AwayTeamScore": null
     },
-    {
-        "MatchNumber": 11,
-        "RoundNumber": 1,
-        "DateUtc": "2022-11-23 13:00:00Z",
-        "Location": "Khalifa International Stadium",
-        "HomeTeam": "Germany",
-        "AwayTeam": "Japan",
-        "flag": [
-            "https://flagcdn.com/w320/de.png",
-            "https://world-cup.codsfli.com/flag/JPN.png"
-        ],
-        "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
-    },
+
     {
         "MatchNumber": 10,
         "RoundNumber": 1,
@@ -157,7 +129,7 @@
         "AwayTeam": "Costa Rica",
         "flag": [
             "https://flagcdn.com/w320/es.png",
-            "https://world-cup.codsfli.com/flag/CRC.png"
+            "https://flagcdn.com/w320/cr.png"
         ],
         "Group": "Group E",
         "HomeTeamScore": null,
@@ -171,28 +143,14 @@
         "HomeTeam": "Belgium",
         "AwayTeam": "Canada",
         "flag": [
-            "https://world-cup.codsfli.com/flag/BEL.png",
-            "https://world-cup.codsfli.com/flag/CAN.png"
+            "https://flagcdn.com/w320/be.png",
+            "https://flagcdn.com/w320/ca.png"
         ],
         "Group": "Group F",
         "HomeTeamScore": null,
         "AwayTeamScore": null
     },
-    {
-        "MatchNumber": 13,
-        "RoundNumber": 1,
-        "DateUtc": "2022-11-24 10:00:00Z",
-        "Location": "Al Janoub Stadium",
-        "HomeTeam": "Switzerland",
-        "AwayTeam": "Cameroon",
-        "flag": [
-            "https://flagcdn.com/w320/ch.png",
-            "https://world-cup.codsfli.com/flag/CMR.png"
-        ],
-        "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
-    },
+
     {
         "MatchNumber": 14,
         "RoundNumber": 1,
@@ -522,7 +480,7 @@
         "AwayTeam": "Belgium",
         "flag": [
             "https://world-cup.codsfli.com/flag/CRO.png",
-            "https://world-cup.codsfli.com/flag/BEL.png"
+            "https://flagcdn.com/w320/be.png"
         ],
         "Group": "Group F",
         "HomeTeamScore": null,
@@ -536,7 +494,7 @@
         "HomeTeam": "Canada",
         "AwayTeam": "Morocco",
         "flag": [
-            "https://world-cup.codsfli.com/flag/CAN.png",
+            "https://flagcdn.com/w320/ca.png",
             "https://world-cup.codsfli.com/flag/MAR.png"
         ],
         "Group": "Group F",

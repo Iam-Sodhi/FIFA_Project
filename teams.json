@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Qatar",
+        "captain": "Hassan Al-Haydos",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+        "players": ["Mohammed Al-Bakri", "Akram Afif", "Almoez Ali"]
+    },
+    {
+        "id": 2,
+        "name": "Ecuador",
+        "captain": "Enner Valencia",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg",
+        "players": ["Moisés Caicedo", "Gonzalo Plata", "Felipe Caicedo"]
+    },
+    {
+        "id": 3,
+        "name": "England",
+        "captain": "Harry Kane",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_England.svg",
+        "players": ["Raheem Sterling", "Jude Bellingham", "Declan Rice"]
+    },
+    {
+        "id": 4,
+        "name": "Senegal",
+        "captain": "Kalidou Koulibaly",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
+        "players": ["Sadio Mané", "Edouard Mendy", "Ismaïla Sarr"]
+    }
+]

@@ -325,3 +325,20 @@ body {
     align-items: center;
     gap: 1rem;
 }
+
+.team-card .card {
+    height: 100%; /* Ensures cards are uniform in height */
+    text-align: center;
+}
+
+.team-card img {
+    height: 150px;
+    width: auto;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.card-body {
+    padding: 1rem;
+}
