@@ -329,6 +329,7 @@ body {
 .team-card .card {
     height: 100%; /* Ensures cards are uniform in height */
     text-align: center;
+    overflow: hidden;
 }
 
 .team-card img {
@@ -341,4 +342,9 @@ body {
 
 .card-body {
     padding: 1rem;
+}
+.card-img-top {
+    max-width: 100%; /* Ensures the image doesn't exceed the container's width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes inline-block white space issues */
 }
